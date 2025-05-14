@@ -1,0 +1,15 @@
+.hero {
+    display: flex;
+    justify-content: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 4rem);
+    grid-template-rows: repeat(5, 4rem);
+}
+.grid-item {
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #b71234;
+    box-sizing: border-box; 
+}

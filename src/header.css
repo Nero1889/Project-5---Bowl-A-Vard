@@ -4,7 +4,6 @@
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    /* background-color: var(--bg-color); */
 }
 .header-menu {
     display: none;

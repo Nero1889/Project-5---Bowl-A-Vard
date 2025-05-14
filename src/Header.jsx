@@ -24,6 +24,13 @@ function Header() {
         SET_LIGHT_MODE(!LIGHT_MODE);
     };
 
+    const TITLE = {
+        fontSize: "4rem",
+        color: "#b71234",
+        fontFamily: "Montserrat",
+        letterSpacing: "-.005rem",
+    }
+
     return (
         <header className="header container">
             <img id="logo" src={logo} alt="Bowl-A-Vard Logo"/>

@@ -1,0 +1,25 @@
+<ul className="header-menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#bowling">Bowling</a></li>
+    <li><a href="#arcade">Arcade</a></li>
+    <li><a href="#food">Food</a></li>
+    <li id="header-line"></li>
+    <li>
+        <img className="sun" src={sun} alt="Sun Icon" draggable="false"/>
+    </li>
+</ul>
+
+.header-menu a {
+    font-size: var(--size-xs);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    transition: color 0.2s;
+}
+.header-menu a:hover {
+    color: #b71234;
+}
+
+I have this React and CSS code here. Everything works just fine, but would it
+be better to style each anchor tag as ".header-menu a" or to create its own
+className? (Such as ".header-link") Or does it not really matter?

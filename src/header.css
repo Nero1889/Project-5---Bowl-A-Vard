@@ -32,23 +32,13 @@
         font-size: var(--size-xs);
         text-decoration: none;
         font-weight: 600;
-        color: var(--txt);
+        color: white;
         letter-spacing: -0.05em;
         transition: color 0.2s;
     }
     .header-menu a:hover {
         color: #fe1e33;
     }   
-    #header-line {
-        border: 1px solid var(--txt);
-        padding-top: 1.5em;
-    }
-    .sun {
-        display: block;
-        cursor: pointer;
-        width: var(--size-lg);
-        height: var(--size-lg);
-    }
     .menu-bar {
         display: none;
     }
@@ -59,8 +49,4 @@
     .header-menu a {
         font-size: var(--size-sm);
     }  
-    .sun {
-        width: var(--size-xl);
-        height: var(--size-xl)
-    }
 }

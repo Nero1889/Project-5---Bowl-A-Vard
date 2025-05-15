@@ -6,7 +6,8 @@
 :root {
     /* Color Theme */
     --bg-color: #100818;
-    --txt: #475569;
+    --txt: hsla(0, 0%, 100%, 0.7);
+    --red: #fe1e33; 
 
     /* Sizes */
     --size-xss: 0.5rem;
@@ -27,6 +28,7 @@
 }
 html {
     scroll-behavior: smooth;
+    --boxes: black;
 }
 .light-mode {
     background-color: white;
@@ -52,4 +54,10 @@ img, picture, video, canvas, svg {
 }
 .section {
     margin-top: 5rem;
+}
+strong {
+    color: var(--red);
+}
+button {
+    font-family: "Montserrat", Arial, sans-serif;
 }

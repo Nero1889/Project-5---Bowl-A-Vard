@@ -4,13 +4,16 @@ import "./style.css";
 import "./utils.css";
 import "./header.css";
 import "./hero.css"
+import "./activities.css"
 import Header from "./Header.jsx";
 import Hero from "./Hero.jsx";
+import Activities from "./Activities.jsx";
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
         <Header/>
         <Hero/>
+        <Activities/>
     </StrictMode>
 )
 

@@ -1,0 +1,11 @@
+.team {
+    margin-top: 4rem;
+}
+#join-team {
+    text-align: center;
+}
+#team-title {
+    font-size: var(--size-3xl);
+    color: white;
+    text-transform: uppercase;
+}

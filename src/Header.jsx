@@ -7,13 +7,12 @@ function Header() {
             <img id="logo" src={logo} alt="Bowl-A-Vard Logo"/>
             <nav>
                 <ul className="header-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#bowling">Bowling</a></li>
-                    <li><a href="#arcade">Arcade</a></li>
-                    <li><a href="#food">Food</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bowling.html">Bowling</a></li>
+                    <li><a href="arcade.html">Arcade</a></li>
                 </ul>
                 <img onClick={() => alert("You opened the menu!")} className="menu-bar"
-                src={menubar} alt="Menu Icon"/>
+                src={menubar} alt="Menu Icon" draggable="false"/>
             </nav>
         </header>
     );

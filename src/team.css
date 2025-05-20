@@ -8,4 +8,5 @@
     font-size: var(--size-3xl);
     color: white;
     text-transform: uppercase;
+    text-shadow: -3px 0px red, 3px 0 purple;
 }

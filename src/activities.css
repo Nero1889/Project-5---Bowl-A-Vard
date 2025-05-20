@@ -1,5 +1,55 @@
 .activities {
-    background-color: rgba(98, 0, 255, .1);
-    padding: 20px;
     text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+#activities-title {
+    color: white;
+    font-size: var(--size-3xl);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+#activ-desc {
+    color: var(--txt);
+    margin-bottom: 2rem;
+    width: 35ch;
+}
+.activ-wrapper {
+    position: relative;
+    height: 12rem;
+    margin-bottom: 2rem;
+}
+.activ-box {
+    background-color: rgba(98, 0, 255, 0.1);
+    border: 2px dashed #6200FF;
+    width: 17.5rem;
+    height: 12rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.05s linear;
+    z-index: 0;
+}
+.activ-container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+    pointer-events: none;
+    background-color: rgba(98, 0, 255, 0.1);
+    width: 17.5rem;
+}
+.activ-img {
+    width: 9rem;
+    margin-bottom: -0.5rem;
+}
+.btn-border {
+    pointer-events: all;
 }

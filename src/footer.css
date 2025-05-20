@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer-social-media {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.footer svg {
+    width: var(--size-4xl);
+}
+#footer-container #a {
+    gap: 0;
+}
+.footer-location {
+    font-size: var(--size-sm);
+    font-weight: 600;
+    text-align: center;
+}
+#footer-title {
+    color: var(--red);
+    text-align: center;
+    font-size: var(--size-xs);
+    letter-spacing: .1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}

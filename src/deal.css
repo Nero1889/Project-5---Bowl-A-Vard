@@ -1,0 +1,25 @@
+.deal {
+    background-color: rgba(98, 0, 255, .1);
+    padding: 25px;
+    text-align: center;
+}
+#bottomless-bowling {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(79, 0, 128, 0.559);
+    padding: 25px;
+}
+#bottomless-title {
+    font-size: var(--size-xl);
+    color: white;
+}
+#bowling-rack {
+    width: 15rem;
+    border-radius: 25px;
+}
+.bottomless-desc {
+    font-size: var(--size-sm);
+    width: 25ch;
+    text-align: left;
+}

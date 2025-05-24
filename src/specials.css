@@ -1,0 +1,26 @@
+.specials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#strike {
+    width: 15rem;
+}
+#specials-title {
+    color: white;
+    font-size: var(--size-3xl);
+    margin-bottom: .5rem;
+}
+#specials-subtitle {
+    color: var(--red);
+    font-size: var(--size-lg);
+    margin-bottom: 1rem;
+}
+#specials-desc {
+    font-size: var(--size-sm);
+    line-height: 1.4rem;
+    width: 28ch;
+    text-align: left;
+}
